@@ -13,6 +13,7 @@ mycursor.execute("CREATE TABLE if not exists Paint(type varchar(50), quantity in
 mycursor.execute("CREATE TABLE if not exists Flooring(type varchar(50),price decimal(7,2))")
 mycursor.execute("CREATE TABLE if not exists Purchase(cust_name varchar(50), cust_num bigint, address varchar(50),order_date DATE, appoitment_date DATE, total int)")
 
+
 def check_type(ctype):
     mycursor.execute("Select type from Paint where type=%s",(ctype,))
     rec = mycursor.fetchall()
