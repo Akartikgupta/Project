@@ -30,7 +30,6 @@ def check_ftype(ctype):
         return(a)
 
 
-
 def create_paint():
     c_type = input("Enter the paint types you have:")
     quantity = int(input("Enter the quantity of buckets you have of that type:"))
