@@ -21,6 +21,7 @@ def check_type(ctype):
         a = i[0]
         return(a)
 
+
 def check_ftype(ctype):
     mycursor.execute("Select type from flooring where type=%s",(ctype,))
     rec = mycursor.fetchall()
