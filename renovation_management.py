@@ -41,6 +41,7 @@ def create_paint():
     db.commit()
     print("Record added succefully!!")
 
+
 def update_paint():
     utype = input("Enter the type of paint to update its price per bucket:")
     prev = check_type(utype)
