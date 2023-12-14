@@ -1,12 +1,13 @@
 import mysql.connector
 import datetime
 # Put your mysql password here before running the program
-mysqlPass = "Akartik@121"
-
+mysqlPass = "Xyz"
+#the above password is the sample password 
 db = mysql.connector.connect(host='localhost',user='root',passwd=mysqlPass)
 mycursor = db.cursor()
-mycursor.execute("create database if not exists Reno")
-db = mysql.connector.connect(host='localhost',user='root',passwd=mysqlPass,database='Reno')
+#Please make a Database before proceeding further (it's a part of good coder skills)
+mycursor.execute("create database if not exists Kartik")
+db = mysql.connector.connect(host='localhost',user='root',passwd=mysqlPass,database='Kartik')
 mycursor = db.cursor()
 mycursor.execute("CREATE TABLE if not exists Paint(type varchar(50), quantity int,price decimal(7,2))")
 mycursor.execute("CREATE TABLE if not exists Flooring(type varchar(50),price decimal(7,2))")
