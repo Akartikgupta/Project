@@ -36,7 +36,6 @@ public class Server  implements ActionListener{
         f.setLayout(null);
         f.setLocation(200, 50);//Open at particular location
         f.getContentPane().setBackground(Color.WHITE);//Setting the background
-
         JPanel p1=new JPanel();//Adding something on the frame
         p1.setBackground(new Color(7,94,84));
         p1.setBounds(0,0,450,70);
