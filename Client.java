@@ -26,6 +26,7 @@ import javax.swing.border.EmptyBorder;
 public class Client implements ActionListener{
     JTextField text;//Globally decleration 
     // As we fetch the data written in the text field
+    
     static JPanel a1;
     static DataOutputStream dout;
     static JFrame f =new JFrame();
