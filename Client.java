@@ -32,6 +32,7 @@ public class Client implements ActionListener{
     static JFrame f =new JFrame();
     static Box vertical = Box.createVerticalBox();//Allined the messages one another
     Client(){
+        
         f.setLayout(null);
         f.setLocation(800, 50);//Open at particular location
         f.getContentPane().setBackground(Color.WHITE);//Setting the background
