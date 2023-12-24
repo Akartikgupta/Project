@@ -4,3 +4,4 @@ Hey there
 *My Second project in this repository is based on the pyton language and project name is Home Rennovation Management 
 Here you have to install the python mysql connector and pay attention when you enter the password for the mysql if any case you lost or forget, you have to install the whole workbench again.
 *My Third Project is based on DAA (Design analysis and algorithm) as my curriculum subject and project is based on Design a GUI based solution for longest common subsequence 
+
