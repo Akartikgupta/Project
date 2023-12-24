@@ -41,8 +41,7 @@ public class Server  implements ActionListener{
         p1.setBounds(0,0,450,70);
         p1.setLayout(null);
         f.add(p1);
-        
-        //Adding a Image into a panel 
+            //Adding a Image into a panel 
         ImageIcon i1=new ImageIcon(ClassLoader.getSystemResource("icons/3.png"));
         //Scaled the image as the image is of high size
         //Converting back to the image icon
